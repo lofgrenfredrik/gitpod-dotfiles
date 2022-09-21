@@ -1,5 +1,7 @@
 #!/bin/bash
 
+exec zsh
+
 TMPDIR=$(mktemp -d)
 
 CURRENT=$PWD
